@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS Tasks (
+	taskid INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	task_name VARCHAR(50),
+	classid INT,
+	due_date DATE,
+) AUTO_INCREMENT = 1;
