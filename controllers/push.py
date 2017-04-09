@@ -13,7 +13,7 @@ def push_tasks():
     
     for tsk in tasks:
         name = str(tsk['task_name'])
-        cur.execute('SELECT * FROM Tasks WHERE task_name=\"' + name + '\"')
+        cur.execute('SELECT * FROM Tasks WHERE task_name=\"' + name + '\"') ## AND THERE classid = classid
         if (len(cur.fetchall()) > 0 ):
             pass
             for_return[name] = 1
