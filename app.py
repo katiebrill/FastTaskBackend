@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-#import extensions
+import extensions
 import controllers
 import config
 #import os

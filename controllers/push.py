@@ -7,7 +7,7 @@ pic = Blueprint('push', __name__)
 
 @pic.route('/push', methods=['POST'])
 def push_tasks():
-
+    cur = db.cursor()
     tasks = request.get_json(force=True)
     for_return = {}
     
