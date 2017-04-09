@@ -21,7 +21,7 @@ def push_tasks():
             taskname = str(tsk['task_name'])
             classid = str(tsk['classid'])
             due_date = str(tsk['due_date'])
-            sql_command = 'INSERT INTO Tasks (task_name, classid, due_date) VALUES (\"' task_name + '\", \"' + classid + '\", \"' + due_date + '\")'
+            sql_command = 'INSERT INTO Tasks (task_name, classid, due_date) VALUES (\"' + task_name + '\", \"' + classid + '\", \"' + due_date + '\")'
             for_return[name] = 0
     return jsonify(for_return)
     
