@@ -12,8 +12,8 @@
 
 env = dict(
 	host = 'us-cdbr-iron-east-03.cleardb.net',
-	port = 5432,
+	port = 3306,
 	user = 'b6d189bfed5cbf',
 	password = '1a4a869d ',
-	db = 'b4d092e21491b8e'
+	db = 'heroku_b4d092e21491b8e'
 )
