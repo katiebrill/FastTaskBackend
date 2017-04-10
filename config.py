@@ -8,6 +8,8 @@
 #	db = 'db62ofjn9t5ctd'
 #)
 
+#mysql://b6d189bfed5cbf:1a4a869d@us-cdbr-iron-east-03.cleardb.net/heroku_b4d092e21491b8e?reconnect=true
+
 env = dict(
 	host = 'us-cdbr-iron-east-03.cleardb.net',
 	port = 5432,

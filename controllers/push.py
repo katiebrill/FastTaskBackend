@@ -1,12 +1,12 @@
 from flask import *
-#from extensions import db
-from app import db
+from extensions import db
+#from app import db
 
 import pdb
 import json
 
 push = Blueprint('push', __name__)
-db.create_all()
+#db.create_all()
 
 @pic.route('/push', methods=['POST'])
 def push_tasks():

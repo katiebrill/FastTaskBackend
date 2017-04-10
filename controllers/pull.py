@@ -1,13 +1,13 @@
 from flask import *
-#from extensions import db
-from app import db
+from extensions import db
+#from app import db
 
 import config
 import pdb
 import json
 
 pull = Blueprint('pull', __name__)
-db.create_all()
+#db.create_all()
 
 @main.route('/pull', methods=['POST'])
 def pull_tasks():
