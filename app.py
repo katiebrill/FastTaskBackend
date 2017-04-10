@@ -27,4 +27,4 @@ app.secret_key = '\x11\x9c\n;[\xa0V\xc3O\xb9\xa1\x0e]fR+\x02\x02\xa8\xacL\x8bq\x
 # For us, listen to port 3000 so you can just run 'python app.py' to start the server
 if __name__ == '__main__':
 	 # listen on external IPs
-    app.run(host=c'fasttaskbackend.herokuapp.com', port=443, debug=True)
+    app.run(host='fasttaskbackend.herokuapp.com', port=443, debug=True)
